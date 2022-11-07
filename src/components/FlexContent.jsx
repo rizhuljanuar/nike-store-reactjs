@@ -6,7 +6,7 @@ const FlexContent = ({
   return (
     <>
       <div
-        className={`flex items-center justify-between lg:flex-col lg:justify-center nike-container ${
+        className={`flex items-center justify-between lg:flex-col lg:justify-center nike-container mb-12 ${
           ifExists ? 'flex-row-reverse' : 'flex-row'
         }`}
       >

@@ -5,7 +5,7 @@ import Title from './utils/Title';
 const Sales = ({ ifExists, endpoint: { title, items } }) => {
   return (
     <>
-      <div className="nike-container">
+      <div className="nike-container mb-12">
         <Title title={title} />
         <div
           className={`grid items-center justify-items-center gap-7 lg:gap-5 mt-7 ${
